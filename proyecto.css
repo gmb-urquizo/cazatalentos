@@ -1,0 +1,217 @@
+/*inicio del header*/
+#header {
+    background: #33bde7;
+    background-image: url("img/nav.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 200px;
+    overflow: hidden;
+}
+
+#header img {
+    width: 250px;
+
+}
+
+.ligas {
+    float: right;
+}
+
+.horizontal-s-r[_ngcontent-gid-c1] {
+    overflow-x: auto;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+
+.menu {
+    display: inline;
+}
+
+.menu a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding: 15px;
+    background-color: #000000;
+    color: rgb(255, 254, 254);
+}
+
+.menu a:hover {
+    background-color: #4aade7;
+    margin-top: -2;
+    padding-bottom: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: 10pt Arial;
+}
+
+.field {
+    display: flex;
+    position: relative;
+    margin: 3em auto;
+    width: 50%;
+    flex-direction: row;
+    box-shadow:
+        5px 5px 0 black,
+        6px 6px 0 black,
+        7px 7px 0 black;
+}
+
+.field>input[type=text],
+.field>button {
+    display: block;
+    font: 1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+    flex: 1;
+    padding: 0.6em;
+    border: 0.2em solid black;
+}
+
+.field>button {
+    padding: 0.6em 0.8em;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+/*fin del header*/
+
+/* inicio del carrusel*/
+#bienvenido {
+    color: rgb(134, 71, 143);
+}
+
+#main #carousel img {
+    width: 70px;
+    object-fit: scale-down;
+
+}
+
+#carousel {
+    position: relative;
+}
+
+
+/* fin del carrusel*/
+
+/* inicio body en general */
+body {
+    background-image: url("img/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(74, 127, 241);
+}
+
+
+
+#boton {
+    color: rgb(4, 20, 24);
+    background: rgb(243, 113, 96);
+    border-color: #020101;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#titulo {
+    color: rgb(169, 71, 207);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+#titulo2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#titulo3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#subtitulos {
+    color: rgb(169, 71, 207);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+#contenido {
+    max-width: 50vh;
+    filter: 50vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* fin body en general */
+
+div .box1 {  
+    font-size: italic;
+    background-color:rgb(37, 119, 226, 0.5);
+    float: left;
+    width: 250px;
+    text-align: right;
+    margin: 2px 200px;
+    display: inline;
+}
+
+div .box2 {
+    font-size: italic;
+    background-color: rgba(255, 255, 255, 0.5);
+    float: left;
+    width: 250px;
+    text-align: left;
+    margin: 2px 70px;
+    display: inline;
+}
+
+div .box3 {  
+    font-size: italic;
+    background-color: rgb(255, 255, 255, 0.5);
+    float: left;
+    width: 250px;
+    text-align: right;
+    margin: 2px 200px;
+    display: inline;
+}
+
+div .box4 {
+    font-size: italic;
+    background-color: rgb(37, 119, 226, 0.5);
+    float: left;
+    width: 250px;
+    text-align: left;
+    margin: 2px 70px;
+    display: inline;
+}
+
+
+
+/* inicio de footer en general */
+#footer {
+    background: rgb(51, 123, 231);
+}
+
+
+div a {
+    color: rgb(2, 3, 3);
+    font-style: italic;
+}
+
+/* fin de footer en general */
